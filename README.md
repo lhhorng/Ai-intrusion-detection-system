@@ -16,41 +16,30 @@ Our project is centered on developing an integrated intrusion detection system. 
 
 ### Prerequisites
 
-Ensure you have the following prerequisites installed:
-
+- Scapy
 - Python 3.x
 - pip (Python package installer)
-- Necessary Python libraries (listed in `requirements.txt`)
+- logging
 
 ### Installation
 
-Follow these steps to set up the project locally:
-
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your_username/idvs2.git
+    git clone https://github.com/lhhorng/idvs2_v2.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd idvs2
-    ```
-3. Install dependencies:
-    ```sh
-    pip install -r requirements.txt
+    cd idvs2_v2.py
     ```
 
 ## Usage
 
-### Running the Main Code (IDVS2)
+### Running the Main Code 
 
 To start the IDVS2 system, use the following command:
 
 ```sh
-python idvs2.py
+python idvs2_v2.py
 ```
 
-### Simulation
-
-```sh
-python 
 
