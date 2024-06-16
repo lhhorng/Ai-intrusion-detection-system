@@ -1,44 +1,56 @@
 # Ai-intrusion-detection-system
 
-A brief and catchy description of your project.
-
 ## Overview
 
 Our project is centered on developing an integrated intrusion detection system. The primary goal is to create the most effective detection system capable of identifying any type of cyber-attack. At present, our focus is on detecting a range of simple attacks, such as port scans, SYN floods, domain spoofing. The system aims to enhance security measures by providing comprehensive monitoring and early warning capabilities, ultimately contributing to a more robust defence against potential threats.
 
-
 ## Features
 
-- **Feature 1**: Description of feature 1.
-- **Feature 2**: Description of feature 2.
-- **Feature 3**: Description of feature 3.
+- **Real-time Intrusion Detection**: Continuously monitors network traffic to detect suspicious activities as they occur.
+- **Machine Learning Integration**: Utilizes advanced ML algorithms for accurate anomaly detection and threat classification.
+- **Comprehensive Simulation Suite**: Includes five different simulations to test and validate the system's effectiveness in various scenarios.
+- **User-friendly Interface**: Provides a simple and intuitive interface for configuring and monitoring the system.
+- **Scalable Architecture**: Designed to scale efficiently with network size and complexity.
 
 ## Getting Started
 
 ### Prerequisites
 
-List any prerequisites needed to install and run your project (e.g., software versions, system requirements).
+Ensure you have the following prerequisites installed:
+
+- Python 3.x
+- pip (Python package installer)
+- Necessary Python libraries (listed in `requirements.txt`)
 
 ### Installation
 
-Step-by-step instructions on how to set up the project locally.
+Follow these steps to set up the project locally:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your_username/project_name.git
+    git clone https://github.com/your_username/idvs2.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd project_name
+    cd idvs2
     ```
 3. Install dependencies:
     ```sh
-    npm install
+    pip install -r requirements.txt
     ```
 
 ## Usage
 
-Explain how to use the project with example commands.
+### Running the Main Code (IDVS2)
+
+To start the IDVS2 system, use the following command:
 
 ```sh
-npm start
+python idvs2.py
+```
+
+### Simulation
+
+```sh
+python 
+
